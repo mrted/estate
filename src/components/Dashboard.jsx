@@ -1,10 +1,11 @@
 import React from 'react'
+import avatar from '../images/avatar.jpg'
 
 const Dashboard = () => {
   return (
       <div className='container grid grid-cols-7 bg-slate-50'>
-          <div className='flex-0 bg-white space-y-14 px-5'>
-            <div>Dashboard</div>
+          <div className='flex-0 bg-white space-y-16 px-8 text-right drop-shadow-lg pt-10'>
+            <div><img src={avatar} alt="" className='rounded-[50%] w-12 h-12 float-right'/></div>
             <div>Residents</div>
             <div>Visitors</div>
             <div>Payment</div>
@@ -15,9 +16,9 @@ const Dashboard = () => {
             </div>
           </div>
           <div className='col-span-6 ...'>
-              <div className='flex justify-between bg-white'>
-                  <div>Dashboard</div>
-                  <div><input type="text" placeholder='Search here' name="" id="" /></div>
+              <div className='flex justify-between pt-14 bg-white'>
+                  <div className='font-bold pl-5'>Dashboard</div>
+                  <div><input type="text" placeholder='Search here' name="" id="" className='bg-slate-50 px-3 py-1 w-96 rounded-[50px]' /></div>
                   <div className='flex gap-3'>
                       <div>notification-icon</div>
                       <div className='flex gap-3'>
