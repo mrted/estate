@@ -4,13 +4,15 @@ const Dashboard = () => {
   return (
       <div className='container flex gap-11 mx-auto'>
           <div className='flex-0 w-24'>
-            <div>logo</div>
-            <div>logo</div>
-            <div>logo</div>
-            <div>logo</div>
-            <div>logo</div>
-            <div>logo</div>
-            <div>logo</div>
+            <div>Dashboard</div>
+            <div>Residents</div>
+            <div>Visitors</div>
+            <div>Payment</div>
+            <div>Estates</div>
+            <div>Staffs</div>
+              <div>
+                  <h1 className='text-xs'>Estate Management</h1>
+            </div>
           </div>
           <div className='flex-1'>
               <div className='flex justify-between'>
