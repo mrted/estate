@@ -2,8 +2,8 @@ import React from 'react'
 
 const Dashboard = () => {
   return (
-      <div className='container flex gap-11 mx-auto'>
-          <div className='flex-0 w-24'>
+      <div className='container grid grid-cols-7 bg-slate-50'>
+          <div className='flex-0 bg-white space-y-14 px-5'>
             <div>Dashboard</div>
             <div>Residents</div>
             <div>Visitors</div>
@@ -14,8 +14,8 @@ const Dashboard = () => {
                   <h1 className='text-xs'>Estate Management</h1>
             </div>
           </div>
-          <div className='flex-1'>
-              <div className='flex justify-between'>
+          <div className='col-span-6 ...'>
+              <div className='flex justify-between bg-white'>
                   <div>Dashboard</div>
                   <div><input type="text" placeholder='Search here' name="" id="" /></div>
                   <div className='flex gap-3'>
@@ -31,7 +31,7 @@ const Dashboard = () => {
                       
                   </div>
               </div>
-              <div className='flex justify-between'>
+              <div className='flex justify-between bg-white mt-5'>
                   <div className='flex justify-between'>
                       <div>Total Resident</div>
                       <div>key icon</div>
@@ -49,19 +49,19 @@ const Dashboard = () => {
                       <div>Check Out Icon</div>
                   </div>
               </div>
-              <div className='flex justify-between'>
+              <div className='flex justify-between bg-white mt-5'>
                   <div>Total Payment</div>
                   <div>Pie Chart</div>
                   <div>Calendar</div>
               </div>
-              <div className='flex justify-between'>
-                <div className='flex justify-between gap-12'>
+              <div className='grid grid-cols-7'>
+                <div className='flex justify-between bg-white mt-5 border-2  col-span-6 ...'>
                     <h1>Title</h1>
                     <h1>Category</h1>
                     <h1>Date</h1>
                     <h1>Priority</h1>
                   </div>
-                  <div>
+                  <div className='bg-white mt-5 border-2'>
                       <h1>Recent Payments</h1>
                   </div>
               </div>
